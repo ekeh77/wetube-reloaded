@@ -158,7 +158,7 @@ export const postEdit = async (req, res) => {
         { new: true }
     );
     req.session.user = updatedUser;
-    return res.redirect("/user/edit");
+    return res.redirect("/users/edit");
 }
 export const remove = (req, res) => res.send("Remove User");
 export const logout = (req, res) => {
