@@ -7,7 +7,6 @@ const totalTime = document.getElementById("totalTime");
 let volumeValue = 0.5;
 video.volume = volumeValue;
 
-
 const handlePlayClick = (e) => {
     if(video.paused){
         video.play();
