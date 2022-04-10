@@ -12,6 +12,7 @@ const videoControls = document.getElementById("videoControls");
 let controlsTimeout = null;
 let consrolsMovementTimeout = null;
 let volumeValue = 0.5;
+
 video.volume = volumeValue;
 
 const handlePlayClick = (e) => {
