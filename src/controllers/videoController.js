@@ -123,6 +123,7 @@ export const registerView = async(req, res) => {
   if(!video){
     return res.SendStatus(404);
   }
+  
   video.meta.views = video.meta.views + 1;
   await video.save();
   return res.SendStatus(200);
