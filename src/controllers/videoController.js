@@ -117,6 +117,7 @@ export const search = async(req, res) => {
       },
     }).populate("owner");
   }
+  
   return res.render("search", {pageTitle:"Search", videos});
 }
 
