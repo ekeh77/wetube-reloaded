@@ -134,3 +134,7 @@ export const registerView = async(req, res) => {
   return res.SendStatus(200);
 
 }
+
+export const createComment = (req, res) => {
+  return res.end();
+}
