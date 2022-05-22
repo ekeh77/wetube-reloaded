@@ -33,6 +33,7 @@ const handleSubmit = async (event) => {
         },
         body: JSON.stringify({ text }),
     });
+    
     if(response == 201) {
         textarea.value = "";
         const { newCommentId } = await response.json();
