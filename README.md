@@ -16,4 +16,5 @@
 /videos/upload -> Upload Video
 /mongodb installed 20211030
 /webpack
-/heroku
+/use heroku
+/use mongo atlas
