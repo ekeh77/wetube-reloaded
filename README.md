@@ -18,4 +18,6 @@
 /webpack
 /use heroku
 /use mongo atlas
-/watch Environment Variables 
+/watch Environment Variables
+/watch Github and AWS S3 part One
+/watch AWS S3 part Two
